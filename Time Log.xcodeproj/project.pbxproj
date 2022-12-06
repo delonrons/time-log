@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32DCE40293E7B9A00F353E8 /* LogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32DCE3F293E7B9A00F353E8 /* LogData.swift */; };
+		A32ECDB72928D26500026631 /* Time_LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDB62928D26500026631 /* Time_LogApp.swift */; };
+		A32ECDB92928D26500026631 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDB82928D26500026631 /* HomeView.swift */; };
+		A32ECDBB2928D26700026631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32ECDBA2928D26700026631 /* Assets.xcassets */; };
+		A32ECDBE2928D26700026631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32ECDBD2928D26700026631 /* Preview Assets.xcassets */; };
+		A32ECDC52928D58600026631 /* WorkClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDC42928D58600026631 /* WorkClockView.swift */; };
+		A32ECDC72928ED1A00026631 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDC62928ED1A00026631 /* StopWatch.swift */; };
+		A32ECDCA292900E800026631 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDC9292900E800026631 /* Color.swift */; };
+		A32ECDCC292CB57100026631 /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDCB292CB57000026631 /* TimeLog.swift */; };
+		A32ECDCE292CB58700026631 /* TimeLogDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDCD292CB58700026631 /* TimeLogDataManager.swift */; };
+		A32ECDD1292CB67100026631 /* TimeLogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDD0292CB67100026631 /* TimeLogHelper.swift */; };
+		A32ECDD5292CC9F900026631 /* time-log.json in Resources */ = {isa = PBXBuildFile; fileRef = A32ECDD4292CC9F800026631 /* time-log.json */; };
+		A32ECDD72934EADE00026631 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32ECDD62934EADE00026631 /* EditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A32DCE3F293E7B9A00F353E8 /* LogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogData.swift; sourceTree = "<group>"; };
+		A32ECDB32928D26500026631 /* Time Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32ECDB62928D26500026631 /* Time_LogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_LogApp.swift; sourceTree = "<group>"; };
+		A32ECDB82928D26500026631 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A32ECDBA2928D26700026631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32ECDBD2928D26700026631 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A32ECDC42928D58600026631 /* WorkClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkClockView.swift; sourceTree = "<group>"; };
+		A32ECDC62928ED1A00026631 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		A32ECDC9292900E800026631 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A32ECDCB292CB57000026631 /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
+		A32ECDCD292CB58700026631 /* TimeLogDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogDataManager.swift; sourceTree = "<group>"; };
+		A32ECDD0292CB67100026631 /* TimeLogHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogHelper.swift; sourceTree = "<group>"; };
+		A32ECDD4292CC9F800026631 /* time-log.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "time-log.json"; sourceTree = "<group>"; };
+		A32ECDD62934EADE00026631 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32ECDB02928D26500026631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32ECDAA2928D26500026631 = {
+			isa = PBXGroup;
+			children = (
+				A32ECDB52928D26500026631 /* Time Log */,
+				A32ECDB42928D26500026631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32ECDB42928D26500026631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECDB32928D26500026631 /* Time Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32ECDB52928D26500026631 /* Time Log */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECDCF292CB5A800026631 /* Model */,
+				A32ECDC8292900D300026631 /* Extension */,
+				A32ECDB62928D26500026631 /* Time_LogApp.swift */,
+				A32ECDB82928D26500026631 /* HomeView.swift */,
+				A32ECDBA2928D26700026631 /* Assets.xcassets */,
+				A32ECDBC2928D26700026631 /* Preview Content */,
+				A32ECDC42928D58600026631 /* WorkClockView.swift */,
+				A32ECDC62928ED1A00026631 /* StopWatch.swift */,
+				A32ECDD62934EADE00026631 /* EditView.swift */,
+			);
+			path = "Time Log";
+			sourceTree = "<group>";
+		};
+		A32ECDBC2928D26700026631 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECDBD2928D26700026631 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A32ECDC8292900D300026631 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECDC9292900E800026631 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A32ECDCF292CB5A800026631 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A32ECDD4292CC9F800026631 /* time-log.json */,
+				A32ECDCB292CB57000026631 /* TimeLog.swift */,
+				A32ECDD0292CB67100026631 /* TimeLogHelper.swift */,
+				A32ECDCD292CB58700026631 /* TimeLogDataManager.swift */,
+				A32DCE3F293E7B9A00F353E8 /* LogData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32ECDB22928D26500026631 /* Time Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32ECDC12928D26700026631 /* Build configuration list for PBXNativeTarget "Time Log" */;
+			buildPhases = (
+				A32ECDAF2928D26500026631 /* Sources */,
+				A32ECDB02928D26500026631 /* Frameworks */,
+				A32ECDB12928D26500026631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Log";
+			productName = "Time Log";
+			productReference = A32ECDB32928D26500026631 /* Time Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32ECDAB2928D26500026631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A32ECDB22928D26500026631 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A32ECDAE2928D26500026631 /* Build configuration list for PBXProject "Time Log" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32ECDAA2928D26500026631;
+			productRefGroup = A32ECDB42928D26500026631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32ECDB22928D26500026631 /* Time Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32ECDB12928D26500026631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32ECDBE2928D26700026631 /* Preview Assets.xcassets in Resources */,
+				A32ECDD5292CC9F900026631 /* time-log.json in Resources */,
+				A32ECDBB2928D26700026631 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32ECDAF2928D26500026631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32ECDCE292CB58700026631 /* TimeLogDataManager.swift in Sources */,
+				A32ECDB92928D26500026631 /* HomeView.swift in Sources */,
+				A32ECDC52928D58600026631 /* WorkClockView.swift in Sources */,
+				A32ECDC72928ED1A00026631 /* StopWatch.swift in Sources */,
+				A32ECDCA292900E800026631 /* Color.swift in Sources */,
+				A32ECDD72934EADE00026631 /* EditView.swift in Sources */,
+				A32ECDB72928D26500026631 /* Time_LogApp.swift in Sources */,
+				A32ECDCC292CB57100026631 /* TimeLog.swift in Sources */,
+				A32DCE40293E7B9A00F353E8 /* LogData.swift in Sources */,
+				A32ECDD1292CB67100026631 /* TimeLogHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A32ECDBF2928D26700026631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32ECDC02928D26700026631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32ECDC22928D26700026631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Time Log/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ6H52447Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rons.Time-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32ECDC32928D26700026631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Time Log/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ6H52447Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rons.Time-Log";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32ECDAE2928D26500026631 /* Build configuration list for PBXProject "Time Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32ECDBF2928D26700026631 /* Debug */,
+				A32ECDC02928D26700026631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32ECDC12928D26700026631 /* Build configuration list for PBXNativeTarget "Time Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32ECDC22928D26700026631 /* Debug */,
+				A32ECDC32928D26700026631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32ECDAB2928D26500026631 /* Project object */;
+}
